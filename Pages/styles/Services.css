@@ -1,0 +1,16 @@
+table
+{
+    width: 100%;
+    border-spacing: 80px;
+}
+td
+{
+    width: 50%;
+    text-align: center;
+    height: 500px;
+}
+.pic
+{
+    width: 70%;
+    height: 300px;
+}

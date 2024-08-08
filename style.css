@@ -1,40 +1,52 @@
-*
+body
 {
     margin: 0;
     padding: 0;
     background-color: black;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
-}
-h1
-{
-    /* background: transparent; */
-    font-size: 130px;
-}
-h2
-{
-    /* background: transparent; */
-    font-size: 100px;
-}
-header
-{
-    position: sticky;
-    top: 0;
-    margin: auto;
-    border: 1px solid black;
-    /* border-bottom:2px solid white ; */
-    width: 100vw;
-    display: flex;
 }
 #logo
 {
-    width: 12vw;
-    height:16vh;
+    font-size: 3em;
+    font-weight: bold;
+    margin: 0;
+}
+.heading1
+{
+    font-size: 5em;
+    margin: 3vh;
+}
+.heading2
+{
+    margin: 3vh;
+    font-size: 4em;
+}
+header
+{
+    height: 4em;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    background-color: black;
+    border-bottom:0.1em solid white ;
+    width: 100vw;
+    display: flex;
+}
+#page-name
+{
+    font-size: 2em;
+    width: 50em;
+}
+#logo
+{
+    width: 5em;
+    height:0.4em;
+    border:2px solid white ;
 }
 #header-nav
 {
-    /* border-bottom: 2px solid white; */
     width: 100vw; 
     display: flex;
     justify-content:space-around;
@@ -55,8 +67,6 @@ a
 }
 a:hover
 {
-    width: 170px;
-    /* height: 50px; */
     text-align: center;
     border-bottom:1vh solid white ;
 }
@@ -70,22 +80,30 @@ section
     width: 100vw;
     height: 100vh;
 }
-
 .section-logo
 {
-    /* margin-top:10%; */
     width: 300px;
     height: 300px;
     transition-duration: 0.5s;
 }
 .image-slider
 {
-    background-image: url(images/bg1.gif);
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.section-logo:hover
+.btn
 {
-    filter: blur(5px);
+    width: 50px;
+    height: 50px;
+    border-radius:50% ;
+    position: sticky;
+    z-index: 2;
+    top: 0 ;
+    transition: 0.8s ease;
+}
+.btn:active
+{
+    width: 45px;
+    height: 45px;
 }
