@@ -1,0 +1,37 @@
+#aboutImg
+{
+    height: 700px;
+    width: 500px;
+}
+#heading2
+{
+    width: fit-content;
+    animation-name:name1;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    position: relative;
+    z-index: -1;
+    border-bottom: 5px solid white;
+}
+.about-content
+{
+    width: 500px;
+}
+
+@keyframes name1
+{
+    from
+    {
+        transform: translateX(-500px);
+    }
+    to
+    {
+        transform: translateX(0px);
+    }
+}
+#about-body
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

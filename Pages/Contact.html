@@ -3,35 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ContactUs</title>
+    <title>Contact me</title>
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="styles/ContactUs.css">
+    <link rel="stylesheet" href="styles/Contact.css">
 </head>
 <body>
     <header>
-        <p id="page-name">Contact Us</p>
+        <p id="page-name">Contact Me</p>
         <nav id="header-nav">
             <a href="../index.html">Home</a>
-            <a href="../Pages/AboutUs.html">About Us</a>
+            <a href="../Pages/About.html">About</a>
             <a href="../Pages/Services.html">Services</a>
         </nav>
     </header>
     <a href="">&#x260E;</a>
-    <section>
-        <p>Fill it</p>
+    <section id="contact-section">
+        <!-- <p>Fill it</p> -->
         <table>
-        <form action="">
+        <form action="" method="post">
             <tr>
                 <td><label for="name">Name</label></td>
-                <td><input type="text" id="name"/></td>
+                <td><input type="text" id="name" placeholder="Enter your name"/></td>
             </tr>
             <tr>
                 <td><label for="phoneNumber">Phone Number</label></td>
-                <td><input type="number" id="phoneNumber"/></td>
+                <td><input type="tel" id="phoneNumber" placeholder="Enter your phone number"/></td>
             </tr>
             <tr>
-                <td><input class="btn-size" type="submit"></td>
-                <td><input class="btn-size" type="reset"></td>
+                <td colspan="2"><input class="btn-size" type="submit"></td>
+                <!-- <td><input class="btn-size" type="reset"></td> -->
             </tr>
         </form>
     </table>

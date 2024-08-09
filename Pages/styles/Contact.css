@@ -1,0 +1,103 @@
+/* section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+    height: 80vh;
+    position: relative;
+    z-index: -1;
+    background-image: url(/images/bg2.gif);
+}
+table
+{
+    position: fixed; 
+    border-spacing: 60px;
+    text-align: center;
+    box-shadow: 10px 10px 10px gray;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+input
+{
+    border: 2px solid black;
+    border-bottom: 2px solid gray;
+    transition: 0.5s ease;
+    background-color: black;
+    color: white;
+}
+input:hover
+{
+    border: 2px solid gray;
+}
+form
+{
+    padding: 10px;
+    background-color: rgb(27, 27, 27);
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin-top: -150px;
+    position: fixed;
+    }
+*/
+
+
+#contact-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../../images/bg2.gif);
+}
+
+input,label
+{
+    text-align: center;
+    font-weight: bold;
+    height: 2.5em;
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    border: 2px solid black;
+}
+input
+{
+    border-bottom:1px solid gray;
+
+}
+::placeholder
+{
+    font-size: 25px;
+}
+input:hover
+{
+    /* border: none; */
+    border:1px solid gray ;
+}
+.btn-size
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 6em;
+    height: 1.5em;
+    border-radius:10px ;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn-size:hover
+{
+    background-color: white;
+    color: black;
+} 
+table
+{
+    background-color: black;
+    box-shadow: 10px 10px 10px white;
+    height: 500px;
+    width: 900px;
+    text-align: center;
+}
