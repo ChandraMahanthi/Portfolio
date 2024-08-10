@@ -19,15 +19,15 @@
     <!-- <a href="">&#x260E;</a> -->
     <section id="contact-section">
         <!-- <p>Fill it</p> -->
-        <table>
+        <table id="formBackground">
         <form action="" method="post">
             <tr>
                 <td><label for="name">Name</label></td>
-                <td><input type="text" id="name" placeholder="Enter your name"/></td>
+                <td><input type="text" id="name" placeholder="Enter your name" required/></td>
             </tr>
             <tr>
                 <td><label for="phoneNumber">Phone Number</label></td>
-                <td><input type="tel" id="phoneNumber" placeholder="Enter your phone number"/></td>
+                <td><input type="tel" id="phoneNumber" placeholder="Enter your phone number" minlength="10" maxlength="10" required/></td>
             </tr>
             <tr>
                 <td colspan="2"><input class="btn-size" type="submit"></td>

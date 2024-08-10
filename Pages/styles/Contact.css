@@ -1,56 +1,9 @@
-/* section
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-    height: 80vh;
-    position: relative;
-    z-index: -1;
-    background-image: url(/images/bg2.gif);
-}
-table
-{
-    position: fixed; 
-    border-spacing: 60px;
-    text-align: center;
-    box-shadow: 10px 10px 10px gray;
-    border: 2px solid white;
-    border-radius: 15px;
-    position: relative;
-    z-index: 1;
-}
-input
-{
-    border: 2px solid black;
-    border-bottom: 2px solid gray;
-    transition: 0.5s ease;
-    background-color: black;
-    color: white;
-}
-input:hover
-{
-    border: 2px solid gray;
-}
-form
-{
-    padding: 10px;
-    background-color: rgb(27, 27, 27);
-    width: 500px;
-    height: 300px;
-    text-align: center;
-    margin-top: -150px;
-    position: fixed;
-    }
-*/
-
-
 #contact-section
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-image: url(../../images/bg2.gif); */
+    background-image: url(../../images/bg2.gif);
     height: 90vh;
 }
 
