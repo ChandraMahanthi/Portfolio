@@ -1,0 +1,15 @@
+1. Need to add content(My info) to the body in ABOUT page
+2. Need to store data of the users in the backend
+3. Need to make the resume available for download
+4. Need to add some more data to the HOME page
+5. Need to add some skills and details also
+6. Need to add my links of social media handles
+7. Change of font-style
+
+
+ADVANCED
+1. Authorization should be added
+	-User and Admin should be separated
+2. Scroll events 
+3. UI bugs need to be rectified
+4. Animated buttons using ::after and ::before

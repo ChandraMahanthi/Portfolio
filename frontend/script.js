@@ -34,6 +34,8 @@ form.addEventListener("submit",()=>
     button.style.width = "200px";
     button.style.height = "50px";
     button.style.fontSize = "15px";
+    button.style.display = "block"
+    
     reply.append(button);
 
     button.addEventListener("click",()=>
